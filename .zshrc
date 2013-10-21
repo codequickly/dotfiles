@@ -1,7 +1,6 @@
 #PROMPT='%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%}' # default prompt
 PROMPT='%F{magenta}%~%f$ ' # default prompt
-RPROMPT='%F{magenta}[%n@%m]%f' # default prompt
-#RPROMPT='%m' # right-side prompt
+#RPROMPT='%F{magenta}[%n@%m]%f' # right prompt
 
 #uses emacs
 bindkey -e

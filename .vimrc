@@ -80,6 +80,9 @@ if has("autocmd")
 
     "Python " 
     autocmd filetype setlocal python set expandtab
+
+    "automatically save document when it loses focus
+    autocmd BufLeave,FocusLost * wall
 else
 
   set autoindent		" always set autoindenting on
